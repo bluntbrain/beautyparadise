@@ -34,9 +34,18 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Beauty Paradise Group - Ajmer</title>
-  <meta name="description" content="Wedding Makeup Artists. Bridal Make-Up Expert. Hair and Beauty Salon. Bridal Makeup Artists. And Makeoever Experts. We Are a Group of Beauticians with Reputation in Hairstyling, Bridal Make-Up, Facials etc">
-  <meta name="author" content="Krane Apps">
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="Premium Bridal Makeup Services in Ajmer, Pushkar, Jaipur & Rajasthan. Expert makeup artists for wedding, engagement & party makeup. HD & Airbrush makeup specialists with 10+ years experience.">
+  <meta name="keywords" content="bridal makeup artist ajmer, wedding makeup artist rajasthan, best makeup artist jaipur, HD makeup services, airbrush makeup, party makeup artist, engagement makeup, professional makeup artist rajasthan">
+  <meta name="author" content="Beauty Paradise Group">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Beauty Paradise Group - Premium Bridal Makeup Artists in Ajmer">
+  <meta property="og:description" content="Expert bridal makeup services in Ajmer & Rajasthan. Specializing in HD makeup, airbrush techniques & party makeup. Book your bridal transformation today!">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:url" content="https://beautyparadisegroup.com">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <title>Beauty Paradise Group - Premium Bridal Makeup Artists in Ajmer | Wedding & Party Makeup</title>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -65,6 +74,509 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Schema Markup for Local Business -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "Beauty Paradise Group",
+      "image": "assets/img/og-image.jpg",
+      "description": "Premium bridal makeup services in Ajmer and Rajasthan. Expert makeup artists specializing in HD and airbrush makeup for weddings and parties.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C48, Shiv Vihar Colony",
+        "addressLocality": "Ajmer",
+        "addressRegion": "Rajasthan",
+        "postalCode": "305001",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "26.4499",
+        "longitude": "74.6399"
+      },
+      "url": "https://beautyparadisegroup.com",
+      "telephone": "+918003832653",
+      "priceRange": "₹₹₹",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "20:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/komal_lakhwani_makeovers/"
+      ]
+    }
+  </script>
+
+  <style>
+    :root {
+      --primary-color: #e43c5c;
+      --secondary-color: #444444;
+      --background-light: #f8f9fa;
+      --text-dark: #333333;
+      --text-light: #777777;
+      --white: #ffffff;
+      --shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+      --border-radius: 15px;
+      --spacing-sm: 8px;
+      --spacing-md: 16px;
+      --spacing-lg: 24px;
+    }
+
+    /* Global Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    /* Hero Section Enhancements */
+    #hero {
+      position: relative;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/img/hero-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding: 180px 0 120px;
+    }
+
+    #hero::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.9));
+    }
+
+    #hero h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: var(--white);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      margin-bottom: var(--spacing-md);
+      line-height: 1.2;
+    }
+
+    #hero h2 {
+      color: #f4f4f4;
+      font-size: 1.5rem;
+      margin-bottom: var(--spacing-lg);
+      font-weight: 400;
+    }
+
+    .hero-description {
+      color: #e0e0e0;
+      font-size: 1.2rem;
+      margin-bottom: var(--spacing-lg);
+      max-width: 800px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: var(--spacing-md);
+      flex-wrap: wrap;
+    }
+
+    /* Service Cards Enhancement */
+    .services {
+      padding: 80px 0;
+      position: relative;
+      background: var(--background-light);
+    }
+
+    .bike_box {
+      background: var(--white);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+      padding: var(--spacing-lg);
+      height: auto;
+      min-height: 320px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      border-top: 4px solid var(--primary-color);
+    }
+
+    .bike_box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    }
+
+    .bike_box_cont {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bike_name {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: var(--spacing-md);
+      text-align: center;
+      padding-bottom: var(--spacing-md);
+      border-bottom: 1px solid #eee;
+    }
+
+    .bike_box_desc {
+      flex: 1;
+      margin: var(--spacing-md) 0;
+    }
+
+    .bike_box_desc li {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-md);
+      margin-bottom: var(--spacing-md);
+      color: var(--text-dark);
+      font-size: 1.15rem;
+      line-height: 1.6;
+    }
+
+    .bike_box_desc i {
+      color: var(--primary-color);
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .bike_extra {
+      font-weight: 600;
+      color: var(--primary-color);
+      text-align: center;
+      padding: var(--spacing-md);
+      font-size: 1.4rem;
+      background: rgba(228, 60, 92, 0.1);
+      border-radius: var(--border-radius);
+      margin: var(--spacing-md) 0;
+    }
+
+    .bike_contact {
+      margin-top: auto;
+      padding-top: var(--spacing-md);
+    }
+
+    .bike_contact ul {
+      display: flex;
+      justify-content: center;
+      gap: var(--spacing-lg);
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .bike_contact a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--white);
+      font-weight: 500;
+      padding: 12px 24px;
+      border-radius: 50px;
+      transition: var(--transition);
+      min-width: 140px;
+      font-size: 1.1rem;
+    }
+
+    .bike_contact a.call-btn {
+      background-color: #28a745;
+    }
+
+    .bike_contact a.whatsapp-btn {
+      background-color: #25d366;
+    }
+
+    .bike_contact a:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    .bike_contact i {
+      font-size: 1.3rem;
+    }
+
+    .bike_option {
+      text-align: center;
+      margin: var(--spacing-md) 0;
+      width: 100%;
+    }
+
+    .bike_option span {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--text-dark);
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    .bike_option select {
+      width: 100%;
+      padding: 12px;
+      border-radius: var(--border-radius);
+      border: 1px solid #ddd;
+      font-size: 1.1rem;
+      color: var(--text-dark);
+      background-color: var(--white);
+    }
+
+    @media (max-width: 768px) {
+      .bike_box {
+        min-height: auto;
+      }
+      
+      .bike_contact ul {
+        flex-direction: column;
+        gap: var(--spacing-md);
+      }
+      
+      .bike_contact a {
+        width: 100%;
+      }
+
+      .bike_name {
+        font-size: 1.6rem;
+      }
+      
+      .bike_box_desc li {
+        font-size: 1.1rem;
+      }
+      
+      .bike_extra {
+        font-size: 1.3rem;
+      }
+    }
+
+    /* Contact Section Enhancement */
+    .contact .info-box {
+      height: 220px;
+      background: var(--white);
+      border-radius: var(--border-radius);
+      padding: var(--spacing-lg);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .contact .info-box i {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .contact .info-box h3 {
+      font-size: 1.5rem;
+      margin-bottom: var(--spacing-sm);
+      color: var(--text-dark);
+    }
+
+    /* Instagram Section Enhancement */
+    .instagram-feed {
+      background: var(--background-light);
+      padding: 80px 0;
+    }
+
+    .instagram-embed-container {
+      background: var(--white);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      padding: var(--spacing-lg);
+    }
+
+    /* Section Title Enhancement */
+    .section-title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .section-title span {
+      color: var(--black);
+      padding: 8px 20px;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: inline-block;
+      margin-bottom: var(--spacing-md);
+    }
+
+    .section-title h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .section-title p {
+      color: var(--text-light);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* Button Enhancement */
+    .btn-get-started {
+      background: var(--primary-color);
+      color: var(--white);
+      padding: 12px 30px;
+      border-radius: 50px;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 1px;
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: var(--spacing-sm);
+    }
+
+    .btn-get-started:hover {
+      background: transparent;
+      color: var(--primary-color);
+      border: 2px solid var(--primary-color);
+    }
+
+    /* Responsive Enhancements */
+    @media (max-width: 768px) {
+      #hero {
+        padding: 120px 0 80px;
+      }
+
+      #hero h1 {
+        font-size: 2.5rem;
+      }
+
+      #hero h2 {
+        font-size: 1.25rem;
+      }
+
+      .hero-description {
+        font-size: 1rem;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+      }
+
+      .bike_box {
+        height: auto;
+      }
+
+      .section-title h2 {
+        font-size: 2rem;
+      }
+    }
+
+    .nav-menu .active {
+      border-radius: 25px;
+      background: var(--primary-color);
+      padding: 8px 20px !important;
+      color: white !important;
+      transition: var(--transition);
+    }
+
+    .nav-menu .active a {
+      color: white !important;
+    }
+
+
+    /* Update existing styles */
+    .nav-menu > ul > li {
+      position: relative;
+      white-space: nowrap;
+      padding: 10px 0 10px 24px;
+    }
+
+    .nav-menu a {
+      display: block;
+      position: relative;
+      color: var(--secondary-color);
+      transition: var(--transition);
+      font-size: 15px;
+      font-weight: 600;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+
+    #header {
+      background: #000000;
+      box-shadow: var(--shadow);
+    }
+
+    .nav-menu > ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-menu > ul > li {
+      position: relative;
+      white-space: nowrap;
+      padding: 10px 12px;
+    }
+
+    .nav-menu a {
+      display: block;
+      position: relative;
+      color: var(--white);
+      font-size: 15px;
+      font-weight: 600;
+      padding: 8px 20px;
+      font-family: "Poppins", sans-serif;
+      border-radius: 25px;
+    }
+
+    .nav-menu .active {
+      background: var(--primary-color);
+      border-radius: 25px;
+    }
+
+    .nav-menu .active a {
+      color: var(--white) !important;
+    }
+
+    /* Remove hover effects */
+    .nav-menu a:hover {
+      color: var(--white);
+    }
+
+    #header.header-scrolled {
+      background: #000000;
+      box-shadow: var(--shadow);
+    }
+
+    /* Logo color update for better visibility */
+    .logo a {
+      color: var(--white) !important;
+    }
+
+    @media (max-width: 768px) {
+      .nav-menu > ul > li {
+        padding: 8px;
+      }
+      
+      .nav-menu a {
+        padding: 6px 16px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -73,12 +585,10 @@
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top ">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-<!--        <i class="icofont-envelope"></i> <a href="mailto:support@whatuwant.in">support@whatuwant.in</a>-->
         <i class="icofont-phone"></i> <a href="tel:+918003832653">+91 800-3832-653</a>
       </div>
       <div class="social-links">
-        <a href="https://www.facebook.com/watuwantapp/" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="https://instagram.com/whatuwantservice?igshid=9gbzm94ossxe" class="instagram"><i class="icofont-instagram"></i></a>
+        <a href="https://www.instagram.com/komal_lakhwani_makeovers/" class="instagram"><i class="icofont-instagram"></i></a>
       </div>
     </div>
   </div>
@@ -95,8 +605,8 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#portfolio">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -107,330 +617,293 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
-      <p style="color: #0c0c0c">bridal makeup
-        bridal hairstyling
-        wedding hair styling
-        bridal look
-        indian bridal makeup
-        wedding makeup
-        wedding bridal makeup
-        brides wedding hairstyles
-        south indian bride makeup
-        dulhan ka makeup
-        best bride makeup
-        makeup in beauty parlour
-        bridal makeup looks
-        bridal makeup prices
-        best indian makeup artist
-        bridal makeup artist
-        dulhan bridal makeup
-        engagement makeup looks
-        bridal makeup near me
-        wedding makeup looks
-        indian wedding makeup
-        bridal facials
-        bridal makeup hairstyle
-        latest bridal makeup
-        makeup products for bride
-        beauty parlour bridal
-        wedding makeup artist
-        indian makeup artist
-        indian bridal makeup looks</p>
-      <h1>Best Bridal <br>makeup artists </h1>
-      <h2>Ajmer, Pushkar, Jaipur, Bikaner, Udaipur, Sikar
-
-      </h2>
-<!--      <a href="#portfolio" class="btn-get-started scrollto" style="margin-left: 10px; margin-right: 10px">Get Started</a>-->
-      <a href="portfolio.html" class="btn-get-started scrollto" style="margin-left: 10px; margin-right: 10px">Portfolio</a>
-      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" class="btn-get-started scrollto" style="margin-left: 10px; margin-right: 10px"> <img src="assets/whatsappicon.png" width="18">  WhatsApp</a>
+      <h1>Premium Bridal Makeup Artists in Rajasthan</h1>
+      <h2>Serving Ajmer, Pushkar, Jaipur, Bikaner, Udaipur & Sikar with Professional Makeup Services</h2>
+      <p class="hero-description">Expert HD & Airbrush Makeup Services for Weddings, Engagements & Special Occasions</p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn-get-started scrollto">View Our Work</a>
+        <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" class="btn-get-started scrollto">
+          <img src="assets/whatsappicon.png" width="18" alt="WhatsApp Icon"> Book Now on WhatsApp
+        </a>
+      </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
 
   <main id="main">
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
       <div class="container">
-
         <div class="section-title">
-          <span>Services</span>
-          <h2>Services</h2>
-          <p>Just drop us a WhatsApp message and we'll be there to help you!</p>
+          <span>Our Services</span>
+          <h2>Professional Makeup Services</h2>
+          <p>Discover our range of premium makeup services tailored for your special occasions</p>
         </div>
-
-<!--        <div class="row" data-aos="fade-up">-->
-<!--          <div class="col-lg-12 d-flex justify-content-center">-->
-<!--            <ul id="portfolio-flters">-->
-<!--              <li data-filter="*" class="filter-active">Prime Services</li>-->
-<!--              <li data-filter=".filter-bride">Bridal Makeup</li>-->
-<!--              <li data-filter=".filter-tattoo">Tattoo Services</li>-->
-
-<!--            </ul>-->
-<!--          </div>-->
-<!--        </div>-->
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
-
-          <div class="col-sm-4 bikecardlayout portfolio-item filter-bride">
-            <div class="bike_box flt">
-              <div class="bike_box_image flt">
-                <img src="services/bridemakeup.jpg" class="img-responsive" alt="image">
-              </div>
-              <div class="bike_box_cont flt">
-                <div class="bike_box_head flt">
-
-                  <div class="bike_name flt">Bridal Wedding - Makeup Studio Cosmetics UK</div>
-                </div>
-                <div class="bike_box_desc flt">
+          <div class="col-lg-4 col-md-6 bikecardlayout portfolio-item filter-bride">
+            <div class="bike_box">
+              <div class="bike_box_cont">
+                <h3 class="bike_name">Premium Bridal Wedding Makeup</h3>
+                <div class="bike_box_desc">
                   <ul>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Brand : Makeup studio, Airbrush professional makeup </li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Service at your wedding location</li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> 2-3 trained professionals depending on location and guests</li>
+                    <li><i class="material-icons">done_all</i> Professional Makeup Studio & Airbrush Cosmetics</li>
+                    <li><i class="material-icons">done_all</i> On-location Service at Your Wedding Venue</li>
+                    <li><i class="material-icons">done_all</i> Team of 2-3 Expert Makeup Artists</li>
+                    <li><i class="material-icons">done_all</i> Complete Bridal Look & Hair Styling</li>
                   </ul>
                 </div>
-                <div class="bike_extra flt">
-                  Package Charges: ₹15,000
+                <div class="bike_extra">
+                  Starting from ₹15,000
                 </div>
-                <div class="bike_contact flt">
+                <div class="bike_contact">
                   <ul>
                     <li>
-                      <a href="tel:+918003832653" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">call</i> Call Now</a></li>
+                      <a href="tel:+918003832653" class="call-btn" aria-label="Call us">
+                        <i class="material-icons">call</i> Book Now
+                      </a>
+                    </li>
                     <li>
-                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">chat</i> Whatsapp</a>
+                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" 
+                         class="whatsapp-btn" aria-label="Message on WhatsApp">
+                        <i class="material-icons">chat</i> WhatsApp
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="text-center"><h6><a class="location_pop_btn" style="font-size: 24px; margin: 20px " href="portfolio.html">Portfolio</a></h6></div>
-
             </div>
           </div>
 
-          <div class="col-sm-4 bikecardlayout portfolio-item filter-bride">
-            <div class="bike_box flt">
-              <div class="bike_box_image flt">
-                <img src="services/bridecasual.jpg" class="img-responsive" alt="image">
-              </div>
-              <div class="bike_box_cont flt">
-                <div class="bike_box_head flt">
-
-                  <div class="bike_name flt">Bridal Engagement - Makeup studio Cosmetics UK</div>
-                </div>
-                <div class="bike_box_desc flt">
+          <div class="col-lg-4 col-md-6 bikecardlayout portfolio-item filter-bride">
+            <div class="bike_box">
+              <div class="bike_box_cont">
+                <h3 class="bike_name">Bridal Engagement Makeup</h3>
+                <div class="bike_box_desc">
                   <ul>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Brand: Makeup Studio, Airbrush professional makeup </li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Service at your service location</li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> 2-3 trained professionals depending on location and guests</li>
+                    <li><i class="material-icons">done_all</i> Professional Makeup Studio & HD Makeup</li>
+                    <li><i class="material-icons">done_all</i> Service at Your Preferred Location</li>
+                    <li><i class="material-icons">done_all</i> Expert Hair Styling & Draping</li>
+                    <li><i class="material-icons">done_all</i> Complete Look for Special Day</li>
                   </ul>
                 </div>
-                <div class="bike_extra flt">
-                  Package Charge: ₹10,000
+                <div class="bike_extra">
+                  Package: ₹10,000
                 </div>
-                <div class="bike_contact flt">
+                <div class="bike_contact">
                   <ul>
                     <li>
-                      <a href="tel:+918003832653" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">call</i> Call Now</a></li>
+                      <a href="tel:+918003832653" class="call-btn">
+                        <i class="material-icons">call</i> Book Now
+                      </a>
+                    </li>
                     <li>
-                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">chat</i> Whatsapp</a>
+                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" 
+                         class="whatsapp-btn">
+                        <i class="material-icons">chat</i> WhatsApp
+                      </a>
                     </li>
                   </ul>
-            </div>
+                </div>
               </div>
-              <div class="text-center"><h6><a class="location_pop_btn" style="font-size: 24px; margin: 20px " href="portfolio.html">Portfolio</a></h6></div>
             </div>
           </div>
 
-
-          <div class="col-sm-4 bikecardlayout portfolio-item filter-bride">
-          <div class="bike_box flt">
-            <div class="bike_box_image flt">
-              <img src="services/partyguest.jpg" class="img-responsive" alt="image">
+          <div class="col-lg-4 col-md-6 bikecardlayout portfolio-item filter-bride">
+            <div class="bike_box">
+              <div class="bike_box_cont">
+                <h3 class="bike_name">Group Party Makeup</h3>
+                <div class="bike_box_desc">
+                  <ul>
+                    <li><i class="material-icons">done_all</i> Team of 4-5 Professional Artists</li>
+                    <li><i class="material-icons">done_all</i> Duration: 5-6 Hours Service</li>
+                    <li><i class="material-icons">done_all</i> Complete Party Look & Styling</li>
+                    <li><i class="material-icons">done_all</i> Perfect for Events & Functions</li>
+                  </ul>
+                </div>
+                <div class="bike_option">
+                  <span>Select Package</span>
+                  <select id="branchselect">
+                    <option value="10 Guests = ₹15,000">10 Guests = ₹15,000</option>
+                    <option value="20 Guests = 25,000">20 Guests = ₹25,000</option>
+                    <option value="30 Guests = 35,000">30 Guests = ₹35,000</option>
+                  </select>
+                </div>
+                <div class="bike_contact">
+                  <ul>
+                    <li>
+                      <a href="tel:+918003832653" class="call-btn">
+                        <i class="material-icons">call</i> Book Now
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" 
+                         class="whatsapp-btn">
+                        <i class="material-icons">chat</i> WhatsApp
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="bike_box_cont flt">
-              <div class="bike_box_head flt">
+          </div>
 
-                <div class="bike_name flt">Guest Party Makeup</div>
-              </div>
-              <div class="bike_box_desc flt">
-                <ul>
-                  <li><i class="material-icons" style="font-size:24px;">done_all</i> Team of 4-5 professional artists</li>
-                  <li><i class="material-icons" style="font-size:24px;">done_all</i> Duration: 5-6 hours</li>
-                  <li><i class="material-icons" style="font-size:24px;">done_all</i> Party makeup and full getup for all members</li>
-                  <li><i class="material-icons" style="font-size:24px;">done_all</i> One Time Charges</li>
-                </ul>
-              </div>
-              <div class="bike_option flt">
-                <span>Book from</span>
-                <select id="branchselect">
-                  <option value="10 Guests = ₹15,000">10 Guests = ₹15,000</option>
-                  <option value="20 Guests = 25,000">20 Guests = ₹25,000</option>
-                  <option value="30 Guests = 35,000">30 Guests = ₹35,000</option>
-                </select>
-              </div>
-              <div class="bike_contact flt">
-                <ul>
-                  <li>
-                    <a href="tel:+918003832653" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">call</i> Call Now</a></li>
-                  <li>
-                    <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">chat</i> Whatsapp</a>
-                  </li>
-                </ul>
+          <div class="col-lg-4 col-md-6 bikecardlayout portfolio-item filter-app">
+            <div class="bike_box">
+              <div class="bike_box_cont">
+                <h3 class="bike_name">HD Makeup Package</h3>
+                <div class="bike_box_desc">
+                  <ul>
+                    <li><i class="material-icons">done_all</i> Professional HD Makeup Products</li>
+                    <li><i class="material-icons">done_all</i> Perfect for Photoshoots & Events</li>
+                    <li><i class="material-icons">done_all</i> Hair Styling Included</li>
+                    <li><i class="material-icons">done_all</i> Long-lasting Makeup Look</li>
+                  </ul>
+                </div>
+                <div class="bike_extra">
+                  Package: ₹8,000
+                </div>
+                <div class="bike_contact">
+                  <ul>
+                    <li>
+                      <a href="tel:+918003832653" class="call-btn">
+                        <i class="material-icons">call</i> Book Now
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" 
+                         class="whatsapp-btn">
+                        <i class="material-icons">chat</i> WhatsApp
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div class="text-center"><h6><a class="location_pop_btn" style="font-size: 24px; margin: 20px " href="portfolio.html">Portfolio</a></h6></div>
+          </div>
 
+          <div class="col-lg-4 col-md-6 bikecardlayout portfolio-item filter-app">
+            <div class="bike_box">
+              <div class="bike_box_cont">
+                <h3 class="bike_name">Party Makeup Special</h3>
+                <div class="bike_box_desc">
+                  <ul>
+                    <li><i class="material-icons">done_all</i> Trendy & Glamorous Looks</li>
+                    <li><i class="material-icons">done_all</i> Premium Makeup Products</li>
+                    <li><i class="material-icons">done_all</i> Hair Styling & Touch-ups</li>
+                    <li><i class="material-icons">done_all</i> Perfect for All Occasions</li>
+                  </ul>
+                </div>
+                <div class="bike_extra">
+                  Package: ₹12,000
+                </div>
+                <div class="bike_contact">
+                  <ul>
+                    <li>
+                      <a href="tel:+918003832653" class="call-btn">
+                        <i class="material-icons">call</i> Book Now
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" 
+                         class="whatsapp-btn">
+                        <i class="material-icons">chat</i> WhatsApp
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 bikecardlayout portfolio-item filter-app">
+            <div class="bike_box">
+              <div class="bike_box_cont">
+                <h3 class="bike_name">Neon & Temporary Tattoo Services</h3>
+                <div class="bike_box_desc">
+                  <ul>
+                    <li><i class="material-icons">done_all</i> Perfect for Bachelor Parties & Events</li>
+                    <li><i class="material-icons">done_all</i> Professional Application</li>
+                    <li><i class="material-icons">done_all</i> Safe & Skin-friendly Products</li>
+                    <li><i class="material-icons">done_all</i> Customizable Designs</li>
+                  </ul>
+                </div>
+                <div class="bike_extra">
+                  ₹800 - ₹1,000 per person
+                </div>
+                <div class="bike_contact">
+                  <ul>
+                    <li>
+                      <a href="tel:+918003832653" class="call-btn">
+                        <i class="material-icons">call</i> Book Now
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" 
+                         class="whatsapp-btn">
+                        <i class="material-icons">chat</i> WhatsApp
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
-          <div class="col-sm-4 bikecardlayout portfolio-item filter-pest">
-            <div class="bike_box flt">
-              <div class="bike_box_image flt">
-                <img src="services/bridaleng.jpg" class="img-responsive" alt="image">
-              </div>
-              <div class="bike_box_cont flt">
-                <div class="bike_box_head flt">
-
-                  <div class="bike_name flt">Bridal Engagement - HD Makeup Studio</div>
-                </div>
-                <div class="bike_box_desc flt">
-                  <ul>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Team of 4-5 professional artists</li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Duration: 5-6 hours</li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Party makeup and full getup for all members</li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> One Time Charges</li>
-                  </ul>
-                </div>
-                <div class="bike_extra flt">
-                  Package Charge: ₹8,000
-                </div>
-                <div class="bike_contact flt">
-                  <ul>
-                    <li>
-                      <a href="tel:+918003832653" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">call</i> Call Now</a></li>
-                    <li>
-                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">chat</i> Whatsapp</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="text-center"><h6><a class="location_pop_btn" style="font-size: 24px; margin: 20px " href="portfolio.html">Portfolio</a></h6></div>
-
-            </div>
-          </div>
-
-          <div class="col-sm-4 bikecardlayout portfolio-item filter-app">
-            <div class="bike_box flt">
-              <div class="bike_box_image flt">
-                <img src="services/bridalhdmakeup.jpg" class="img-responsive" alt="image">
-              </div>
-              <div class="bike_box_cont flt">
-                <div class="bike_box_head flt">
-
-                  <div class="bike_name flt">Bridal Wedding - HD Makeup Studio</div>
-                </div>
-                <div class="bike_box_desc flt">
-                  <ul>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Brand: Makeup Studio, HD makeup </li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Service at your service location</li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> 2-3 trained professionals depending on location and guests</li>
-                  </ul>
-                </div>
-                <div class="bike_extra flt">
-                  Package Charge: ₹12,000
-                </div>
-
-                <div class="bike_contact flt">
-                <ul>
-                  <li>
-                    <a href="tel:+918003832653" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">call</i> Call Now</a></li>
-                  <li>
-                    <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">chat</i> Whatsapp</a>
-                  </li>
-                </ul>
-              </div>
-              </div>
-              <div class="text-center"><h6><a class="location_pop_btn" style="font-size: 24px; margin: 20px " href="portfolio.html">Portfolio</a></h6></div>
-            </div>
-          </div>
-
-          <div class="col-sm-4 bikecardlayout portfolio-item filter-app">
-            <div class="bike_box flt">
-              <div class="bike_box_image flt">
-                <img src="services/tattoo.jpg" class="img-responsive" alt="image">
-              </div>
-              <div class="bike_box_cont flt">
-                <div class="bike_box_head flt">
-
-                  <div class="bike_name flt">Neon Tattoo & Temporary Tattoo Services</div>
-                </div>
-                <div class="bike_box_desc flt">
-                  <ul>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i>Temporary neon tattoos  for Bachelor Party, Pyjama party, Birthday party, Sangeet night
-                    </li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> Service at your service location</li>
-                    <li><i class="material-icons" style="font-size:24px;">done_all</i> 2-3 trained professionals depending on location and guests</li>
-                  </ul>
-                </div>
-                <div class="bike_extra flt">
-                  Package Charge: ₹800 - ₹1000/ per person
-                </div>
-
-                <div class="bike_contact flt">
-                  <ul>
-                    <li>
-                      <a href="tel:+918003832653" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">call</i> Call Now</a></li>
-                    <li>
-                      <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" style="font-size:16px;"><i class="material-icons" style="font-size:16px;">chat</i> Whatsapp</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="text-center"><h6><a class="location_pop_btn" style="font-size: 24px; margin: 20px " href="portfolio.html">Portfolio</a></h6></div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
     </section><!-- End Portfolio Section -->
+
+    <!-- ======= Instagram Feed Section ======= -->
+    <section id="portfolio" class="instagram-feed">
+      <div class="container">
+        <div class="section-title">
+          <span>Follow Us</span>
+          <h2>Instagram</h2>
+          <p>Check out our latest work and updates on Instagram</p>
+        </div>
+        
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-8">
+            <div class="instagram-embed-container">
+              <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/komal_lakhwani_makeovers" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:1080px; min-width:326px; padding:0; width:100%; width:100%;height:undefinedpx;max-height:100%; width:undefinedpx;"><div style="padding:16px;"> <a id="main_link" href="komal_lakhwani_makeovers" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="komal_lakhwani_makeovers" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Shared post</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;">Time</time></p></div></blockquote><script src="https://www.instagram.com/embed.js"></script><script type="text/javascript" src="https://www.embedista.com/j/instagramfeed1707.js"></script><div style="overflow: auto; position: absolute; height: 0pt; width: 0pt;"><a href="https://www.embedista.com/instagramfeed">Embed Instagram Post</a> Code Generator</div></div><style>.boxes3{height:175px;width:153px;} #n img{max-height:none!important;max-width:none!important;background:none!important} #inst i{max-height:none!important;max-width:none!important;background:none!important}</style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Instagram Feed Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
-
         <div class="section-title">
           <span>Contact</span>
           <h2>Contact</h2>
         </div>
 
         <div class="row" data-aos="fade-up">
-          <div class="col-lg-6">
+          <div class="col-lg-4 col-md-6">
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
-              <p>C48, Shiv Vihar Colony <br>
-                Vaishali Nagar, Ajmer, Rajasthan, 305001</p>
+              <p>C48, Shiv Vihar Colony<br>Vaishali Nagar, Ajmer<br>Rajasthan, 305001</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="info-box mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
               <p>beautyparadisegroup@gmail.com</p>
             </div>
           </div>
 
-          <a href="tel:+918003832653"><div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="info-box mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
               <p><a href="tel:+918003832653">+91 800-3832-653</a></p>
             </div>
-          </div><a>
-
+          </div>
         </div>
-
-
       </div>
     </section><!-- End Contact Section -->
 
@@ -441,67 +914,68 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h5>Beauty Paradise Group</h5>
-              <p>
-                C48, Shiv Vihar Colony <br>
-                Vaishali Nagar, Ajmer, Rajasthan, 305001<br><br>
-                <strong>Phone:</strong><a href="tel:+918003832653"> +91 800-3832-653</a><br>
-                <!--                <strong>Email:</strong> beautyparadisegroup@gmail.com<br>-->
+              <h3>Beauty Paradise Group</h3>
+              <p itemscope itemtype="http://schema.org/PostalAddress">
+                <span itemprop="streetAddress">C48, Shiv Vihar Colony</span><br>
+                <span itemprop="addressLocality">Vaishali Nagar, Ajmer</span><br>
+                <span itemprop="addressRegion">Rajasthan</span>, 
+                <span itemprop="postalCode">305001</span><br><br>
+                <strong>Phone:</strong> <a href="tel:+918003832653" itemprop="telephone">+91 800-3832-653</a><br>
+                <strong>Email:</strong> <a href="mailto:beautyparadisegroup@gmail.com" itemprop="email">beautyparadisegroup@gmail.com</a>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.instagram.com/komal_lakhwani_makeovers/" class="instagram" aria-label="Follow us on Instagram" rel="noopener">
+                  <i class="bx bxl-instagram"></i>
+                </a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="portfolio.html">Portfolio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="terms.html">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="privacy.html">Privacy policy</a></li>
-            </ul>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-links">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#services">Makeup Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Our Portfolio</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact Us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="terms.html">Terms & Conditions</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="privacy.html">Privacy Policy</a></li>
+              </ul>
+            </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Bridal Makeup</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Party Makeup</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Hair Styling</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Mehendi Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Tatoo Services</a></li>
-            </ul>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-newsletter">
+              <h4>Book an Appointment</h4>
+              <p>Contact us for professional makeup services in Ajmer and across Rajasthan</p>
+              <div class="cta-buttons">
+                <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services" class="whatsapp-btn">
+                  <img src="assets/whatsappbutton.png" width="200" alt="WhatsApp Contact Button" loading="lazy">
+                </a>
+                <a href="tel:+918003832653" class="call-btn">
+                  <i class="bx bx-phone"></i> Call Now
+                </a>
+              </div>
+            </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Contact US</h4>
-            <p>Click to message Komal, from Beauty Paradise Group</p>
-            <a href="https://api.whatsapp.com/send?phone=918003832653&text=Hi%20Komal%2C%20I%20want%20to%20book%20your%20makeup%20services"><img src="assets/whatsappbutton.png" width="300"/></a>
-
-          </div>
-
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container footer-bottom">
       <div class="copyright">
-        &copy; Copyright <strong><span>Beauty Paradise Group</span></strong>. All Rights Reserved
+        &copy; <span id="currentYear"></span> <strong>Beauty Paradise Group</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://kraneapps.com/">Krane Apps</a>
+        Professional Makeup Services in <a href="#">Ajmer</a> | <a href="#">Pushkar</a> | <a href="#">Jaipur</a>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <a href="#" class="back-to-top" aria-label="Scroll to top"><i class="icofont-simple-up"></i></a>
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
@@ -517,6 +991,10 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    // Update copyright year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>
